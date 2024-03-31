@@ -61,20 +61,4 @@
     </script>
 </body>
 </html>
-', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ name })
-            });
 
-            if (response.ok) {
-                alert('Name submitted successfully!');
-            } else {
-                alert('Error submitting name.');
-            }
-        });
-    </script>
-</body>
-</html>
